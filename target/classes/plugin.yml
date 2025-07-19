@@ -1,0 +1,15 @@
+name: GooDzSky
+version: '1.0-SNAPSHOT'
+main: de.goodzclan.gooDzSky.GooDzSky
+api-version: '1.21'
+
+softdepend: [SuperiorSkyBlock2, Fadah]
+
+commands:
+  dungeon:
+    description: Startet oder verwaltet ein Dungeon.
+    usage: "/dungeon <start/stop> [schwierigkeit]"
+    permission: dungeon.use
+
+
+
