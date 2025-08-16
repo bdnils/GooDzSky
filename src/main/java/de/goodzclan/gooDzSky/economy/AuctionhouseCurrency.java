@@ -12,7 +12,7 @@ public class AuctionhouseCurrency implements Currency {
 
         @Override
         public String getName() {
-            return "GooDzCore";
+            return "Münzen";
         }
 
         @Override

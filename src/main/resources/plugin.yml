@@ -3,13 +3,24 @@ version: '1.0-SNAPSHOT'
 main: de.goodzclan.gooDzSky.GooDzSky
 api-version: '1.21'
 
-softdepend: [SuperiorSkyBlock2, Fadah]
+softdepend: [SuperiorSkyBlock2, Fadah, GooDzCore-Spigot]
 
 commands:
   dungeon:
     description: Startet oder verwaltet ein Dungeon.
     usage: "/dungeon <start/stop> [schwierigkeit]"
     permission: dungeon.use
-
-
+  warp:
+    descsription: Verwalte und erstelle warps
+    usage: "/warp ..."
+    permission: warp.use
+  shop:
+    description: Erstelle einen shop
+    usage: "/shop"
+  pay:
+    description: Überweise Geld
+    usage: "/pay <Name>"
+  battlepass:
+    description: Spiele den Battlepass
+    usage: "/battlepass"
 
